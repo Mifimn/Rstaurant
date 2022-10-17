@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>White Rice - Mifimn's Restaurant</title>
+    <link rel="icon" href="Images/logo.png">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+                            
+            <nav>
+                <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Foods</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+            <img class="other" src="Images/chef.png" width="100px" height="80px">
+            <img class="menu" src="images/menu-removebg-preview.png" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- White Rice -->
+    <div class="small-container single-product">
+        <h2 class="title">White Rice</h2>
+        <div class="row">
+            <div class="col-2">
+                <img src="images/white rice/White_1.JPG" width="100%" height="450px">
+            </div>
+            <div class="col-2">
+                <h1>White And Dodo</h1>
+                <h4>&#8358;50.00</h4>
+                <a href="mailto:shittumifimn0807@gmail.com" class="btn">Inbox Now</a>
+
+                <h3>Ingredents <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. iusto esse blanditiis voluptatum sequi quo distinctio quos delectus, ullam velit nihil fuga?</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-2">
+                <img src="images/white rice/white_2.JPG" width="100%" height="450px">
+            </div>
+            <div class="col-2">
+                <h1>Cube White Rice And Dodo With Peppered Fish</h1>
+                <h4>&#8358;50.00</h4>
+                <a href="mailto:shittumifimn0807@gmail.com" class="btn">Inbox Now</a>
+
+                <h3>Ingredents <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. iusto esse blanditiis voluptatum sequi quo distinctio quos delectus, ullam velit nihil fuga?</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-2">
+                <img src="images/white rice/white_3.JPG" width="100%" height="450px">
+            </div>
+            <div class="col-2">
+                <h1>White Rice With Chicken Peppered Soup</h1>
+                <h4>&#8358;50.00</h4>
+                <a href="mailto:shittumifimn0807@gmail.com" class="btn">Inbox Now</a>
+
+                <h3>Ingredents <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. iusto esse blanditiis voluptatum sequi quo distinctio quos delectus, ullam velit nihil fuga?</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-2">
+                <img src="images/white rice/white_4.JPG" width="100%" height="450px">
+            </div>
+            <div class="col-2">
+                <h1>White Rice And Stew</h1>
+                <h4>&#8358;50.00</h4>
+                <a href="mailto:shittumifimn0807@gmail.com" class="btn">Inbox Now</a>
+
+                <h3>Ingredents <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. iusto esse blanditiis voluptatum sequi quo distinctio quos delectus, ullam velit nihil fuga?</p>
+            </div>
+        </div>
+    </div>
+    
+    <!--------- footer ---------->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="">
+                    <p>Fun, Fast, Tasty. Delicious</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>whatsapp:- (+2348023169274)</li>
+                        <li>Phone:- (+2348023169274)</li>
+                        <li>Gmail:- <a href="mailto:shittumifimn0807@gmail.com">shhittumifimn0807@gmail.com</a> </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us </h3>
+                    <ul>
+                        <li><a href=""></a>Facebook</li>
+                        <li><a href=""></a>Twitter</li>
+                        <li><a href=""></a>Instagram</li>
+                        <li><a href=""></a>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 @ Mifimn's - Restaurant</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+    }
+</script>

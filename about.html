@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About - Mifimn's Restaurant</title>
+    <link rel="icon" href="Images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Images/logo.png" width="125px">
+                </div>
+                                
+                <nav>
+                    <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </nav>
+                <img class="other" src="Images/chef.png" width="100px" height="80px">
+                <img class="menu" src="images/menu-removebg-preview.png" onclick="menutoggle()">
+            </div>
+        </div>
+    </header>
+    
+    <div class="row">
+        <div class="col-2 ip-1">
+            <img src="images/chef.png" alt="">
+        </div>
+        <div class="col-2 ip-1 ip-2"> 
+            <h2 class="title">About Us</h2>
+            <p>Welcome to Mifimn's. We would like to give you an overview of Restaurant. Our goal is to give you an honest look at Restauranted provide you with the  hesitate you need to make a decision about whether this portfolio is right for you. Mifimn's was founded in 2016 by Shittu M. Ayoola and has become the leading review website for Restaurant. Provide complete, accurate, and up-to-date information about this product. We hope you enjoy Restaurant as much as we promote it. If you have any questions or comments, please do not hesitate to contact us.
+               <br> Sincerely,
+               <br> Shittu M. Ayoola
+            </p>
+        </div>
+    </div>
+    
+
+    <!--------- footer ---------->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="">
+                    <p>Fun, Fast, Tasty. Delicious</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>whatsapp:- (+2348023169274)</li>
+                        <li>Phone:- (+2348023169274)</li>
+                        <li>Gmail:- <a href="mailto:shittumifimn0807@gmail.com">shhittumifimn0807@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us </h3>
+                    <ul>
+                        <li><a href=""></a>Facebook</li>
+                        <li><a href=""></a>Twitter</li>
+                        <li><a href=""></a>Instagram</li>
+                        <li><a href=""></a>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 @ Mifimn's - Restaurant</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+    }
+</script>
